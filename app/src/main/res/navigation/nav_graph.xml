@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.jasall.talimpsixologiyasi.DashboardFragment"
+        android:label="@string/dashboard_fragment_label"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboardFragment_to_maruzaFragment"
+            app:destination="@id/maruzaFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_amaliyIshlar"
+            app:destination="@id/amaliyIshlar" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_pdfFragment"
+            app:destination="@id/pdfFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/maruzaFragment"
+        android:name="com.jasall.talimpsixologiyasi.MaruzaFragment"
+        android:label="@string/maruzalar_fragment_label"
+        tools:layout="@layout/fragment_maruza">
+
+        <action
+            android:id="@+id/action_maruzaFragment_to_pdfFragment"
+            app:destination="@id/pdfFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/amaliyIshlar"
+        android:name="com.jasall.talimpsixologiyasi.AmaliyIshlar"
+        android:label="@string/amaliylar_fragment_label"
+        tools:layout="@layout/fragment_amaliy_ishlar" >
+        <action
+            android:id="@+id/action_amaliyIshlar_to_pdfFragment"
+            app:destination="@id/pdfFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pdfFragment"
+        android:name="com.jasall.talimpsixologiyasi.PdfFragment"
+        android:label="@string/pdf_fragment_label"
+        tools:layout="@layout/fragment_pdf" />
+</navigation>

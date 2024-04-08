@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Ta\'lim psixologiyasi</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="dashboard_fragment_label">"Ta'lim psixologiyasi"</string>
+    <string name="maruzalar_fragment_label">"Ma'ruzalar"</string>
+    <string name="amaliylar_fragment_label">"Amaliy ishlar"</string>
+    <string name="pdf_fragment_label">" "</string>
+    <string name="maruzaimagedescription">maruzaImage</string>
+    <string name="maruzalar_text">Ma\'ruzalar</string>
+    <string name="maruzalar_desc">Ma\'ruzalar soni 22 ta</string>
+    <string name="time_maruza">22 dars, 44 soat</string>
+
+
+    <string-array name="maruzalar">
+        <item>1 – maruza</item>
+        <item>2 – maruza</item>
+        <item>3 – maruza</item>
+        <item>4 – maruza</item>
+        <item>5 – maruza</item>
+        <item>6 – maruza</item>
+        <item>7 – maruza</item>
+        <item>8 – maruza</item>
+        <item>9 – maruza</item>
+        <item>10 – maruza</item>
+        <item>11 – maruza</item>
+        <item>12 – maruza</item>
+        <item>13 – maruza</item>
+        <item>14 – maruza</item>
+        <item>15 – maruza</item>
+        <item>16 – maruza</item>
+        <item>17 – maruza</item>
+        <item>18 – maruza</item>
+        <item>19 – maruza</item>
+        <item>20 – maruza</item>
+        <item>21 – maruza</item>
+        <item>22 – maruza</item>
+    </string-array>
+
+    <string-array name="amaliylar">
+        <item>1 – amaliy ish</item>
+        <item>2 – amaliy ish</item>
+        <item>3 – amaliy ish</item>
+        <item>4 – amaliy ish</item>
+        <item>5 – amaliy ish</item>
+        <item>6 – amaliy ish</item>
+        <item>7 – amaliy ish</item>
+        <item>8 – amaliy ish</item>
+        <item>9 – amaliy ish</item>
+        <item>10 – amaliy ish</item>
+        <item>11 – amaliy ish</item>
+        <item>12 – amaliy ish</item>
+        <item>13 – amaliy ish</item>
+        <item>14 – amaliy ish</item>
+        <item>15 – amaliy ish</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
